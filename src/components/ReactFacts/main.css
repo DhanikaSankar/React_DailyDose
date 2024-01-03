@@ -1,0 +1,44 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(17, 19, 19);
+  margin: 0;
+  background-image: url("./images/grey-react-logo.png");
+  background-repeat: no-repeat;
+  background-position: 1280px 140px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(7, 10, 11);
+  /* justify-content: space-between; */
+}
+.logo-title {
+  color: #61dafb;
+  font-weight: bold;
+  font-size: 25px;
+}
+.logo-img {
+  width: 45px;
+  padding: 20px 6px 20px 20px;
+}
+.nav-sub {
+  color: white;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.list-main {
+  padding-left: 20px;
+  /* letter-spacing: 1px; */
+  line-height: 40px;
+  color: white;
+}
+.list-title {
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 40px;
+}
+li::marker {
+  color: #61dafb;
+  font-size: 30px;
+}
