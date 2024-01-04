@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: Inter,sans-serif;
+}
+.main-card{
+    /* border: 2px solid black; */
+    margin: 10px 500px ;
+    /* padding: 10px; */
+    background-color: rgb(30, 30, 30);
+    width: 400px;
+    color: white;
+    border-radius: 20px;
+}
+
+h6,h5,h2{
+    margin: 0;
+    text-align: center;
+}
+h2{
+    margin-top: 12px;
+}
+h5{
+    margin-top: 2px;
+    color: rgb(251, 197, 126);
+    font-size: 12px;
+    font-weight: 400;
+}
+h6{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: azure;
+    font-size: 9px;
+    font-weight: 400;
+}
+.dp-img{
+    width: 400px;
+    height: 400px;
+}
+.btn-email,.btn-linkedin{
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 35px;
+    margin-bottom: 20px;
+}
+.btn-email{
+    margin-left:42px;
+    margin-right: 20px;
+}
+.btn-linkedin{
+    background-color: #517cf0;
+    color: white;
+}
+.email,.link{
+    vertical-align: top;
+    padding-left: 8px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+}
+.icon{
+    padding: 10px;
+}
+.content{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0px 14px;
+}
+.about-para,.interest-para,h4{
+    margin: 0;
+}
+.about-para,.interest-para{
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 12px;
+}

@@ -1,11 +1,15 @@
 
+import BusinessCard from "./components/DigitalBusinessCard/BusinessCard";
 import Main from "./components/ReactFacts/Main";
 
 
 function App() {
   return (
     <div>
-     <Main />
+      {/* React Facts */}
+        {/* <Main /> */}
+      {/* Digital Business Card */}
+        <BusinessCard />
     </div>
   );
 }
