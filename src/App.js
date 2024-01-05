@@ -1,4 +1,5 @@
 
+import AirBnB from "./components/AirBnb/AirBnB";
 import BusinessCard from "./components/DigitalBusinessCard/BusinessCard";
 import Main from "./components/ReactFacts/Main";
 
@@ -9,7 +10,9 @@ function App() {
       {/* React Facts */}
         {/* <Main /> */}
       {/* Digital Business Card */}
-        <BusinessCard />
+        {/* <BusinessCard /> */}
+      {/* AirBnb Website Design */}
+      <AirBnB />
     </div>
   );
 }
